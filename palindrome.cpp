@@ -9,10 +9,9 @@ int main(){
     int pnum=0;
     while (num!=0){
         vnum = num % 10;
-        // cout << vnum  endl;;
+
         pnum = (pnum * 10) + vnum;
-        // pnum*=10;
-        num = num/10;
+         num = num/10;
 
     }
     cout << pnum << endl;
